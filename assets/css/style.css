@@ -1,0 +1,89 @@
+/* global reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'montserrat', sans-serif;
+}
+
+/* ================ CSS PW START ================ */
+/* ================ CSS PW END ================ */
+body {
+	background-color: #2b2d2f;
+	color: white;
+}
+
+
+body .holder_div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+form {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: #FFF;
+	color: #2b2d2f;
+	border-radius: 16px;
+	padding: 24px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+	outline: none;
+	border: none;
+	background: none;
+}
+
+input[type="text"],
+input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 8px 16px;
+	border: 1px solid #bbb;
+	border-radius: 8px;
+}
+
+.passwd-wrap {
+	position: relative;
+}
+
+.show-password {
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	transform: translateY(-50%);
+	cursor: pointer;
+	width: 24px;
+	display: flex;
+	align-items: center;
+}
+
+.show-password img {
+	width: 100%;
+	height: auto;
+}
+
+/* .holder_div .link-a {
+	display: flex;
+	justify-content: center;
+
+	text-decoration: none;
+	color: #2b2d2f;
+	font-weight: 600;
+} */
+
+.holder_div_2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 300px;
+}
+.holder_div_2 .link-a {
+	color: white;
+}
