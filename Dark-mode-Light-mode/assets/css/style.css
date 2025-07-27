@@ -1,5 +1,3 @@
-/*Assistive try*/
-
 :root{
   --base-color: white;
   --base-variant: #e8e9ed;
@@ -28,7 +26,7 @@ body{
   color: var(--text-color);
 }
 header, section{
-  padding: 70px min(50px, 7%);
+  padding: 70px;
 }
 section{
   background-color: var(--base-variant);
@@ -48,9 +46,7 @@ button{
   font-weight: 500;
   cursor: pointer;
 }
-.cta-button{
-  background-color: var(--accent-color);
-}
+
 #theme-switch{
   height: 50px;
   width: 50px;
